@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gold2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B8860B" />
+      <stop offset="50%" stop-color="#F5D77A" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+    <radialGradient id="darkBg2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14171D" />
+      <stop offset="100%" stop-color="#07090C" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#darkBg2)"/>
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="url(#gold2)" stroke-width="2" rx="8"/>
+  <rect x="36" y="36" width="728" height="488" fill="none" stroke="#D4AF37" stroke-width="0.8" stroke-dasharray="6,4" rx="6" opacity="0.6"/>
+
+  <text x="400" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" fill="#38BDF8" text-anchor="middle" letter-spacing="4">Infosys <tspan fill="#F5D77A">Springboard</tspan></text>
+  <text x="400" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8" text-anchor="middle" letter-spacing="2">NAVIGATE YOUR NEXT</text>
+
+  <line x1="280" y1="135" x2="520" y2="135" stroke="url(#gold2)" stroke-width="1"/>
+
+  <text x="400" y="175" font-family="'Cormorant Garamond', Georgia, serif" font-size="32" font-weight="600" fill="url(#gold2)" text-anchor="middle">Course Completion Certificate</text>
+  
+  <text x="400" y="220" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">This is to certify that</text>
+  <text x="400" y="270" font-family="'Cormorant Garamond', Georgia, serif" font-size="42" font-weight="700" fill="#FFF1B8" text-anchor="middle">KAMESH J</text>
+
+  <text x="400" y="320" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#E2E8F0" text-anchor="middle">
+    has successfully completed the course
+  </text>
+  <text x="400" y="352" font-family="'Plus Jakarta Sans', sans-serif" font-size="17" font-weight="600" fill="#F5D77A" text-anchor="middle">
+    Beginning Selenium WebDriver Testing in Java
+  </text>
+
+  <g transform="translate(80, 440)">
+    <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="11" fill="#D4AF37">COMPLETED: Sep 12, 2026</text>
+    <text x="0" y="18" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94A3B8">ISSUED: Oct 2, 2026</text>
+    <text x="0" y="36" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38BDF8">verify.onwingspan.com</text>
+  </g>
+
+  <g transform="translate(400, 455)">
+    <circle cx="0" cy="0" r="36" fill="#0A1118" stroke="url(#gold2)" stroke-width="2"/>
+    <text x="0" y="-5" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#F5D77A" text-anchor="middle">VERIFIED</text>
+    <text x="0" y="12" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#38BDF8" text-anchor="middle">INFOSYS</text>
+  </g>
+
+  <g transform="translate(620, 440)">
+    <line x1="-70" y1="18" x2="70" y2="18" stroke="#64748B" stroke-width="1"/>
+    <text x="0" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#E2E8F0" text-anchor="middle">Thirumala Arohi</text>
+    <text x="0" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Senior VP &amp; Head - ETA</text>
+  </g>
+</svg>
