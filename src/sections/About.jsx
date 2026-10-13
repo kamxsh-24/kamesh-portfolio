@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { User, MapPin, GraduationCap, Briefcase, CheckCircle2, Sparkles, Award } from 'lucide-react';
 import { aboutContent } from '../data/portfolioData';
 import { useRole } from '../context/RoleContext';
-import Avatar from '../components/Avatar';
+import ProfilePhoto from '../components/ProfilePhoto';
 
 export default function About() {
   const { role, isFullStack, isQA, isSDE } = useRole();
@@ -48,10 +48,9 @@ export default function About() {
             </div>
 
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-6">
-              {/* Avatar in About section */}
+              {/* Photo in About section */}
               <div className="shrink-0">
-                {/* Replace /public/profile.jpg with your photo (square, at least 600x600) */}
-                <Avatar size="sm" />
+                <ProfilePhoto variant="about" />
               </div>
 
               <div className="flex-1 text-center sm:text-left">
